@@ -9,7 +9,7 @@
 2) Click on Register button and create two users.
 3) Login with one of the users.
 
-Check Authorization
+##### Check Authorization
 5) Click Home (Acessible to Everyone); 
 6) Click Privacy (Denied) (Acessible to Users with Roles: "Coach" or "Admin"); 
 7) Click Admin (Denied) (Acessible to Users with Roles: "Admin");
