@@ -1,6 +1,29 @@
-﻿@{
+﻿
+@{
     ViewData["Title"] = "Privacy Policy";
 }
 <h1>@ViewData["Title"]</h1>
 
 <p>Use this page to detail your site's privacy policy.</p>
+
+@if (User.Identity.IsAuthenticated)
+{
+    @if (User.IsInRole("Admin"))
+    {
+        <p>Your Role is Admin</p>
+    }
+    @if (User.IsInRole("Coach"))
+    {
+        <p>Your Role is Coach</p>
+    }
+    <div id="sidebar">
+        <div class="module">
+            <ul class="menu">
+                <li>@Html.ActionLink("Home", "Index", "Home")</li>
+            </ul>
+        </div>
+        <div class="mainContent">
+            Hello, @User.Identity.Name !
+        </div>
+    </div>
+}
