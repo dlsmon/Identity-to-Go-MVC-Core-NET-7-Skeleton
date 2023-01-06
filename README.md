@@ -5,14 +5,16 @@
 ##### PM> Add-Migration CreateIdentitySchema
 ##### PM> Update-Database
 
-1) Run the application.
-2) Click on Register button and create two users.
-3) Login with one of the users.
+
+
+##### Run the application.
+1) Click on Register button and create two users.
+2) Login with one of the users.
 
 ##### Check Authorization
-5) Click Home (Acessible to Everyone); 
-6) Click Privacy (Denied) (Acessible to Users with Roles: "Coach" or "Admin"); 
-7) Click Admin (Denied) (Acessible to Users with Roles: "Admin");
+3) Click Home (Acessible to Everyone); 
+4) Click Privacy (Denied) (Acessible to Users with Roles: "Coach" or "Admin"); 
+5) Click Admin (Denied) (Acessible to Users with Roles: "Admin");
 
 #### Check if the Users are on the table AspNetUsers as below
 ![image](https://user-images.githubusercontent.com/118259688/211039593-2ad2a287-a5d1-42f5-ab5b-3d21913c87bd.png)
