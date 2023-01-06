@@ -5,5 +5,5 @@
 ##### PM> Add-Migration CreateIdentitySchema
 ##### PM> Update-Database
 
-No run the application and register auser and then login.
+Now run the application and register auser and then login.
 
