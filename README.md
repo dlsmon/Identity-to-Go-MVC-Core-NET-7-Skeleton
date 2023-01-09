@@ -15,7 +15,7 @@
 
 ##### Run the application.
 
-1) Click on Register button and create two users.
+1) Click on Register button and create two users.(
 2) Login with one of the users.
 
 ##### Check Authorization
