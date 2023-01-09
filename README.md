@@ -1,13 +1,20 @@
 # Auth1-MVC-Core
 
 ### After cloning the project. Open Package Manager Console
+![image](https://user-images.githubusercontent.com/118259688/211290614-7daa60c8-b706-4025-9f6b-7da1cc58f0cd.png)
 
 ##### PM> Add-Migration CreateIdentitySchema
+![image](https://user-images.githubusercontent.com/118259688/211290396-4614b4c5-7441-49b1-97a6-feddcd77eaeb.png)
+
 ##### PM> Update-Database
+![image](https://user-images.githubusercontent.com/118259688/211290481-819688f1-f54e-437e-a9ce-ff2e069c5bb1.png)
+
+
 
 
 
 ##### Run the application.
+
 1) Click on Register button and create two users.
 2) Login with one of the users.
 
