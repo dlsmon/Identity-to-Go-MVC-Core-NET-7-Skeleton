@@ -1,8 +1,8 @@
-# Auth1-MVC-Core
+# Identity-to-Go-MVC-Core-NET-7-Skeleton
 
 ###### Kickoff your website with .NET  7 Identity (authentification(register,login,logout) and authorization(roles))
-###### Time to configure(5 minutes maximum)
-###### Email server not configured
+###### Time to configure (5 minutes maximum)
+###### Email server not configured (to update)
 
 
 ### Clone the project on visual studio. Open Package Manager Console
