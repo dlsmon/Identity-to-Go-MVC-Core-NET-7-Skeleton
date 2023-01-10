@@ -1,8 +1,8 @@
 # Auth1-MVC-Core
 
-Kickoff your website with .NET  7 Identity (authentification(register,login,logout) and authorization(roles))
-Time to configure(5 minutes maximum)
-Email server not configured
+## Kickoff your website with .NET  7 Identity (authentification(register,login,logout) and authorization(roles))
+## Time to configure(5 minutes maximum)
+## Email server not configured
 
 
 ### After cloning the project. Open Package Manager Console
