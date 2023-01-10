@@ -5,7 +5,7 @@
 ###### Email server not configured
 
 
-### After cloning the project. Open Package Manager Console
+### Clone the project on visual studio. Open Package Manager Console
 ![image](https://user-images.githubusercontent.com/118259688/211290614-7daa60c8-b706-4025-9f6b-7da1cc58f0cd.png)
 
 ##### PM> Add-Migration CreateIdentitySchema
