@@ -18,7 +18,7 @@
 
 
 
-##### Run the application.
+##### Run the application. Check Authentification
 
 1) Click on Register button and create two users.(
 2) Login with one of the users.
