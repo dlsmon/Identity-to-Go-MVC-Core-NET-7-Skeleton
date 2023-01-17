@@ -1,10 +1,11 @@
-﻿using Microsoft.AspNetCore.Identity;
+﻿using FitnessGymApplication.Models;
+using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
 
 namespace Auth1.Data;
 
-public class Auth1Context : IdentityDbContext<IdentityUser>
+public class Auth1Context : IdentityDbContext<Client>
 {
     public Auth1Context(DbContextOptions<Auth1Context> options)
         : base(options)
