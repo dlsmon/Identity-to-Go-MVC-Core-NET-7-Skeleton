@@ -1,11 +1,11 @@
-﻿using FitnessGymApplication.Models;
-using Microsoft.AspNetCore.Identity;
+﻿using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
+using Auth1.Models;
 
 namespace Auth1.Data;
 
-public class Auth1Context : IdentityDbContext<Client>
+public class Auth1Context : IdentityDbContext<IdentityUser>
 {
     public Auth1Context(DbContextOptions<Auth1Context> options)
         : base(options)
@@ -19,4 +19,6 @@ public class Auth1Context : IdentityDbContext<Client>
         // For example, you can rename the ASP.NET Identity table names and more.
         // Add your customizations after calling base.OnModelCreating(builder);
     }
+
+
 }

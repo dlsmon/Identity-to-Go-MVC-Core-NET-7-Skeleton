@@ -5,7 +5,8 @@ using Auth1.Data;
 using Microsoft.AspNetCore.Authorization;
 using NuGet.Protocol.Plugins;
 using System.Security.Principal;
-using FitnessGymApplication.Models;
+using Auth1.Models;
+using Microsoft.Extensions.DependencyInjection;
 
 //# Get Environment Variable
 var apiKey = Environment.GetEnvironmentVariable("SENDGRID_API_KEY");
@@ -15,7 +16,8 @@ var connectionString = builder.Configuration.GetConnectionString("Auth1ContextCo
 
 builder.Services.AddDbContext<Auth1Context>(options => options.UseSqlServer(connectionString));
 
-builder.Services.AddDefaultIdentity<Client>()
+
+builder.Services.AddDefaultIdentity<IdentityUser>()
     .AddRoles<IdentityRole>()
     .AddEntityFrameworkStores<Auth1Context>();
 
