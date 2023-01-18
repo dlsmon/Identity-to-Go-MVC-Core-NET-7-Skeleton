@@ -11,10 +11,9 @@ namespace Auth1.Models
         public string? LastName { get; set; }
         public int? Height { get; set; }
         public int? Weight { get; set; }
-        public string? Adresse { get; set; }
+        public string? Address { get; set; }
         public string? Diseases { get; set; }
         public string? Hobbies { get; set; }
-
-
+        public string? Sex { get; set;}
     }
 }
