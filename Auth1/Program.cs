@@ -5,6 +5,8 @@ using Auth1.Data;
 using Microsoft.AspNetCore.Authorization;
 using NuGet.Protocol.Plugins;
 using System.Security.Principal;
+using Auth1.Models;
+using Microsoft.Extensions.DependencyInjection;
 
 //# Get Environment Variable
 var apiKey = Environment.GetEnvironmentVariable("SENDGRID_API_KEY");
@@ -14,16 +16,13 @@ var connectionString = builder.Configuration.GetConnectionString("Auth1ContextCo
 
 builder.Services.AddDbContext<Auth1Context>(options => options.UseSqlServer(connectionString));
 
-builder.Services.AddDefaultIdentity<IdentityUser>(
-    options => options.SignIn.RequireConfirmedAccount = false)
+
+builder.Services.AddDefaultIdentity<IdentityUser>()
     .AddRoles<IdentityRole>()
     .AddEntityFrameworkStores<Auth1Context>();
 
-
-
 // Add services to the container.
 builder.Services.AddControllersWithViews();
-
 
 var app = builder.Build();
 
